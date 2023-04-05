@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 const program =require("commander")
 const chalk =require("chalk")
+const figlet=require("figlet")
 program
   .command('create <app-name>')
   .description('create a new project')
@@ -40,8 +41,8 @@ program
 program
   .on('--help', () => {
     // 使用 figlet 绘制 Logo
-    console.log('\r\n' + figlet.textSync('zhurong', {
-      font: 'Ghost',
+    console.log('\r\n' + figlet.textSync('George H', {
+     
       horizontalLayout: 'default',
       verticalLayout: 'default',
       width: 80,
