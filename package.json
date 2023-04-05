@@ -1,0 +1,30 @@
+{
+  "name": "gh-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin.js",
+  "bin": {
+    "gh": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeHcc/gh-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeorgeHcc/gh-cli/issues"
+  },
+  "homepage": "https://github.com/GeorgeHcc/gh-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "ejs": "^3.1.9",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.0.0"
+  }
+}
