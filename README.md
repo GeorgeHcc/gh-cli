@@ -1,4 +1,5 @@
 # gh-cli
 
-``` npm i georgehcc -g
+``` 
+npm i georgehcc -g
 ```
