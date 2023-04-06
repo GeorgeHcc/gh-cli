@@ -49,7 +49,7 @@ program
       whitespaceBreak: true
     }));
     // 新增说明信息
-    console.log(`\r\nRun ${chalk.cyan(`roc <command> --help`)} show details\r\n`)
+    console.log(`\r\nRun ${chalk.cyan(`gh <command> --help`)} show details\r\n`)
   })
 
   program.parse(process.argv)
