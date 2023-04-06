@@ -24,7 +24,7 @@ gh
 ```
  - create [options] <app-name>  create a new project
  - config [options] [value]     inspect and modify the config
- - ui [options]                 start add open roc-cli ui
+ - ui [options]                 start add open gh-cli ui
  - help [command]               display help for command
  
 ```
