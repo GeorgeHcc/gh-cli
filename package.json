@@ -1,11 +1,20 @@
 {
   "name": "gh-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "bin.js",
+  "description": "a demo webcli for front-end",
+  "main": "index.js",
   "bin": {
     "gh": "./bin/cli.js"
   },
+  "files":[
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "gh-cli",
+    "gh",
+    "脚手架"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,18 +22,21 @@
     "type": "git",
     "url": "git+https://github.com/GeorgeHcc/gh-cli.git"
   },
-  "author": "",
+  "author": "GeorgeH",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GeorgeHcc/gh-cli/issues"
   },
   "homepage": "https://github.com/GeorgeHcc/gh-cli#readme",
   "dependencies": {
+    "axios": "^1.3.5",
     "chalk": "^4.1.2",
     "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
     "ejs": "^3.1.9",
     "figlet": "^1.5.2",
     "fs-extra": "^11.1.1",
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.0.0",
+    "ora": "^5.0.0"
   }
 }
