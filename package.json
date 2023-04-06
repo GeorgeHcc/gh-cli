@@ -1,5 +1,5 @@
 {
-  "name": "gh-cli",
+  "name": "georgehcc",
   "version": "1.0.0",
   "description": "a demo webcli for front-end",
   "main": "index.js",
@@ -11,9 +11,8 @@
     "lib"
   ],
   "keywords": [
-    "gh-cli",
-    "gh",
-    "脚手架"
+    "gcc-cli",
+    "ghcc"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
